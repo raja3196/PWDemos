@@ -16,7 +16,7 @@ import {test,expect} from "@playwright/test"
 
 // fixtures - global variables - page, browser
 
-test("Verify browser URL", async ({page})=> {
+test("Verify browser URL @sanity", async ({page})=> {
 
     await page.goto("https://www.google.com/") 
     let URL:string = await page.url()   // to fetch URL of the current page
