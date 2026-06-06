@@ -25,7 +25,7 @@ import {test,expect, Locator} from "@playwright/test"
 
 // 1. page.getByAltText()
 
-test ("Verify PlayWright Locators", async({page})=>{
+test ("Verify PlayWright Locators @sanity", async({page})=>{
 
     /*
     await page.goto("https://demo.nopcommerce.com/")

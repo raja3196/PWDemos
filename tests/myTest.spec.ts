@@ -16,7 +16,7 @@ import {test,expect} from "@playwright/test"
 
 // fixtures - global variables - page, browser
 
-test("Verify browser title", async ({page})=> {
+test("Verify browser title @sanity", async ({page})=> {
 
     await page.goto("https://www.google.com/")
     let titlePage:string = await page.title()
